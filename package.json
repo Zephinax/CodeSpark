@@ -1,12 +1,15 @@
 {
   "name": "codespark",
-  "author": "Leo Miranda",
+  "author": "zephinax",
   "private": true,
   "version": "0.1.0",
+  "homepage": "https://zephinax.github.io/CodeSpark",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -20,6 +23,7 @@
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
+    "gh-pages": "^6.1.1",
     "lucide-react": "^0.294.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
