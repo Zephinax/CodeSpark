@@ -1,5 +1,13 @@
+@font-face {
+  font-family: Vazir;
+  src: url(./font/Vazir.ttf);
+}
+
 html {
   scroll-behavior: smooth;
+  font-family: Vazir, roboto;
+  -webkit-tap-highlight-color: transparent;
+  overflow-x: hidden;
 }
 
 /* HeroCards background shadow */

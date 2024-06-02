@@ -3,7 +3,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion";
+} from '@/components/ui/accordion';
 
 interface FAQProps {
   question: string;
@@ -13,61 +13,43 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free ChadcnUI template.",
-    value: "item-1",
+    question: 'آیا این قالب رایگان است؟',
+    answer: 'بله این قالب توسط زفینکس طراحی شده و کاملا رایگان است.',
+    value: 'item-1',
   },
   {
-    question: "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+    question: 'چگونه میتوانم از آن استفاده کنم؟',
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
-    value: "item-2",
+      'شما میتوانید از صفحه گیت هاب این پروژه و دنبال کردن مراجل راه اندازی از این قالب استفاده کنید، ستاره دادن به پروژه را فراموش نکنید :)',
+    value: 'item-2',
   },
   {
-    question:
-      "Lorem ipsum dolor sit amet  Consectetur natus dolores minus quibusdam?",
+    question: 'چطور از این پروژه حمایت کنم؟',
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis necessitatibus maxime quis ipsa vitae cumque quo?",
-    value: "item-3",
+      'راه های مختلفی برای این کار وجود دارد، مانند ستاره دادن و فورک کردن پروژه و یا خریدن قهوه برای من.',
+    value: 'item-3',
   },
   {
-    question: "Lorem ipsum dolor sit amet, consectetur adipisicing elit?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-    value: "item-4",
-  },
-  {
-    question:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur natus?",
-    answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
-    value: "item-5",
+    question: 'چگونه باگ  های پروژه را اطلاع دهیم؟',
+    answer: 'از طریق صفحه گیت هاب پروژه و یا از طریق پیام مستقیم به من.',
+    value: 'item-4',
   },
 ];
 
 export const FAQ = () => {
   return (
-    <section
-      id="faq"
-      className="container py-24 sm:py-32"
-    >
-      <h2 className="text-3xl md:text-4xl font-bold mb-4">
-        Frequently Asked{" "}
-        <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Questions
+    <section id='faq' className='container py-24 sm:py-32'>
+      <h2 className='text-right text-3xl md:text-4xl font-bold mb-4'>
+        سوالات{' '}
+        <span className='bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text'>
+          متداول
         </span>
       </h2>
 
-      <Accordion
-        type="single"
-        collapsible
-        className="w-full AccordionRoot"
-      >
+      <Accordion type='single' collapsible className='w-full AccordionRoot'>
         {FAQList.map(({ question, answer, value }: FAQProps) => (
-          <AccordionItem
-            key={value}
-            value={value}
-          >
-            <AccordionTrigger className="text-left">
+          <AccordionItem dir='rtl' key={value} value={value}>
+            <AccordionTrigger className='text-right'>
               {question}
             </AccordionTrigger>
 
@@ -76,14 +58,14 @@ export const FAQ = () => {
         ))}
       </Accordion>
 
-      <h3 className="font-medium mt-4">
-        Still have questions?{" "}
+      <h3 className='font-medium mt-4 text-right'>
+        باز هم سوالی دارید؟{' '}
         <a
-          rel="noreferrer noopener"
-          href="#"
-          className="text-primary transition-all border-primary hover:border-b-2"
-        >
-          Contact us
+          rel='noreferrer noopener'
+          href='https://zephinax.ir/'
+          target='_blank'
+          className='text-primary transition-all border-primary hover:border-b-2'>
+          ارتباط با من
         </a>
       </h3>
     </section>
