@@ -1,36 +1,46 @@
-# CodeSpark Landing Page Template
+# CodeSpark - StartUp Website Template
 
-## <a href="https://github.com/Zephinax/CodeSpark" target="_blank">CodeSpark</a> + <a href="https://react.dev/" target="_blank">React</a> + <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> + <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>.
+![image](./CodeSparkPreview.webp)
 
-![shadch-landing-page](https://github.com/leoMirandaa/shadcn-landing-page/assets/61714687/3ba7b51f-9589-4541-800a-5ab7cecad1b5)
+### ⚠️ **All names, information and assets used are fake and do not represent a real componany.** ⚠️
 
-Build your React landing page effortlessly with the required sections to your project. <a href="https://shadcn-landing-page.vercel.app/" target="_blank">Live Demo</a>
+## Live Demo
 
-## Sections
+### Take a look the live demo here 👉 [Zephinax.CodeSpark.ir](https://zephinax.github.io/HooBank/)
 
-- [x] Navbar
-- [x] Sidebar(mobile)
-- [x] Hero
-- [x] Sponsors
-- [x] About
-- [x] Stats
-- [x] How It Works
-- [x] Features
-- [x] Services
-- [x] Call-to-Action (CTA)
-- [x] Testimonials
-- [x] Team
-- [x] Pricing
-- [x] Newsletter
-- [x] Frequently Asked Questions(FAQ)
-- [x] Footer
+CodeSpark's modern and sleek landing page design, powered by React and Tailwind, sets the stage for a dynamic and engaging user experience.
+
+## Layout
+
+- Navbar
+- Sidebar(mobile)
+- Hero
+- Sponsors
+- About
+- Stats
+- How It Works
+- Features
+- Services
+- Call-to-Action (CTA)
+- Testimonials
+- Team
+- Pricing
+- Newsletter
+- Frequently Asked Questions(FAQ)
+- Footer
 
 ## Features
 
-- [x] Fully Responsive Design
-- [x] User Friendly Navigation
-- [x] Dark Mode
-- [x] Meta tags
+- Fully Responsive Design
+- User Friendly Navigation
+- Dark Mode
+- Meta tags
+
+## Built With
+
+- React.js
+- Tailwind CSS
+- Vite
 
 ## How to install
 
@@ -43,7 +53,7 @@ git clone https://github.com/Zephinax/CodeSpark.git
 2. Go into project
 
 ```bash
-cd shadcn-landing-page
+cd CodeSpark
 ```
 
 3. Install dependencies
@@ -57,3 +67,11 @@ npm install
 ```bash
 npm run dev
 ```
+
+Give a ⭐ if you like this project!
+
+## Authors
+
+- [@Zephinax](https://github.com/Zephinax)
+
+  Please give me proper credit by linking back to [Me](https://github.com/Zephinax), Thanks!
